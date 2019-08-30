@@ -22,7 +22,7 @@ export class AppComponent {
     {pergunta: 'Nas férias, gosto mais de', opcoes:[{'nome':'conhecer novos lugares', 'value':'vis'}, {'nome':'descansar', 'value':'aud'}, {'nome':'participar de atividades', 'value':'cin'}]},
     {pergunta: 'O que mais valorizo nas pessoas é', opcoes:[{'nome':'aparencia', 'value':'vis'}, {'nome':'o que elas dizem', 'value':'aud'}, {'nome':'o que elas fazem', 'value':'cin'}]},
     {pergunta: 'Percebo que alguém gosta de mim', opcoes:[{'nome':'pela expressao do rosto', 'value':'vis'}, {'nome':'pelo jeito que fala comigo', 'value':'aud'}, {'nome':'pelas atitudes que tem comigo', 'value':'cin'}]},
-    {pergunta: 'Meu carro preferido tem principalmente que ser', opcoes:[{'nome':'bonito', 'value':'vis'}, {'nome':'silencioso', 'value':'aud'}, {'nome':'confortable', 'value':'cin'}]},
+    {pergunta: 'Meu carro preferido tem principalmente que ser', opcoes:[{'nome':'bonito', 'value':'vis'}, {'nome':'silencioso', 'value':'aud'}, {'nome':'confortavél', 'value':'cin'}]},
     {pergunta: 'Quando vou comprar algo, procuro', opcoes:[{'nome':'olhar o produto sem interferencia do vendedor', 'value':'vis'}, {'nome':'prefiro falar com um vendedor', 'value':'aud'}, {'nome':'testar e experimentar o produto', 'value':'cin'}]},
     {pergunta: 'Tomo decisões com base principalmente', opcoes:[{'nome':'no que vejo', 'value':'vis'}, {'nome':'nas opinioes dos outros clientes', 'value':'aud'}, {'nome':'na minha vontade', 'value':'cin'}]},
     {pergunta: 'Em excesso, o que mais me incomoda é', opcoes:[{'nome':'claridade', 'value':'vis'}, {'nome':'barulho', 'value':'aud'}, {'nome':'lugares cheios', 'value':'cin'}]},
@@ -62,9 +62,6 @@ export class AppComponent {
             break;
         case this.aud:
           this.aprendizado = cinestesico
-          break;
-        default:
-          this.aprendizado= "ups não conseguimos calcular, tente de novo"
           break;
       } 
     }else{
